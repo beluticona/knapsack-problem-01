@@ -4,6 +4,7 @@ Solved Knapsack problem 01 by backtracking, Dynamic Programming and Meet-in-the-
 ## Table of contents
 * [General info](#general-info)
 * [Setup](#setup)
+* [Test](#test)
 
 ## General info
 There are different solutions for Knapsack Problem 01: 
@@ -25,7 +26,7 @@ $ make
 $ ./main res < sample.in
 ```
 
-## test
+## Test
 To run minitest, choose a Capacity W and run:
 
 ```
