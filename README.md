@@ -6,7 +6,7 @@ Solved Knapsack problem 01 by backtracking, Dynamic Programming and Meet-in-the-
 * [Setup](#setup)
 
 ## General info
-There are four different solutions for Knapsack Problem 01. 
+There are different solutions for Knapsack Problem 01: 
 - Brute Force
 - Backtracking
 	- Naive
@@ -21,6 +21,14 @@ Presented as part of a project for Algorithms and Data Structures III.
 To run this project, choose a posible resolutions res in {fb, bt,bt-ftb,bt-opt, bt-doublecut, bt-iter-bfs, bt-iter-dfs, mitm, dp}:
 
 ```
-$ make rep
+$ make
 $ ./main res < sample.in
+```
+
+## test
+To run minitest, choose a Capacity W and run:
+
+```
+$ make
+$ ./runMiniTest.sh W
 ```
