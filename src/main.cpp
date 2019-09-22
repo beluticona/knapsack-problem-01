@@ -19,12 +19,12 @@ int main(int argc, char** argv) {
   
   if (algoritmo == "fb") cout << fuerza_bruta(pedidos);
   else if (algoritmo == "bt") cout << backtracking(pedidos);
-  else if (algoritmo == "bt-poda-ftb") cout << backtrackingFtb(pedidos);
-  else if (algoritmo == "bt-poda-opt") cout << backtrackingOpt(pedidos);
-  else if (algoritmo == "bt-poda-opt-pd") cout << backtrackingOptPodaPD(pedidos);
-  else if (algoritmo == "bt-poda-opt-cp") cout << backtrackingOptPodaComplemento(pedidos);
-  else if (algoritmo == "bt-doblepoda") cout << backtrackingDoblePoda(pedidos);
-  else if (algoritmo == "bt-doblepoda-CMP") cout << backtrackingDoblePodaCMP(pedidos);
+  else if (algoritmo == "bt-ftb") cout << backtrackingFtb(pedidos);
+  else if (algoritmo == "bt-opt") cout << backtrackingOpt(pedidos);
+  else if (algoritmo == "bt-opt-pd") cout << backtrackingOptPodaPD(pedidos);
+  else if (algoritmo == "bt-opt-cp") cout << backtrackingOptPodaComplemento(pedidos);
+  else if (algoritmo == "bt-doublecut") cout << backtrackingDoblePoda(pedidos);
+  else if (algoritmo == "bt-doublecut-CMP") cout << backtrackingDoblePodaCMP(pedidos);
   else if (algoritmo == "mitm") cout << meet_in_the_middle(pedidos);
   else if (algoritmo == "pd") cout << programacion_dinamica(pedidos);
   else if (algoritmo == "bt-iter-bfs") cout << backtracking_bfs_iterativo(pedidos);

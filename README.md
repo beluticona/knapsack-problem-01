@@ -18,7 +18,7 @@ There are four different solutions for Knapsack Problem 01.
 Presented as part of a project for Algorithms and Data Structures III.
 
 ## Setup
-To run this project, choose a posible resolutions res in {fb, bt, mitm, dp}:
+To run this project, choose a posible resolutions res in {fb, bt,bt-ftb,bt-opt, bt-doublecut, bt-iter-bfs, bt-iter-dfs, mitm, dp}:
 
 ```
 $ make rep
